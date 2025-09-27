@@ -1,0 +1,49 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div id="site">
+
+  <form action="http://localhost:3000/user" method="post" id="checkout-order-form">
+    <h2 style="text-align: center;font-family: 'Dela Gothic One', cursive">Your Order Details</h2>
+    <div class="container" style="color: black;">
+      <fieldset id="fieldset-billing">
+        <div class="center">
+          <label style="text-align: center;" for="fname"><i class="fa fa-user"></i> &nbsp;&nbsp; Name</label>
+          <input style="width: 500px;" placeholder="Enter Here" type="text" name="fname" id="fname" data-type="string"
+            data-message="This field cannot be empty" required>
+        </div>
+        <div class="center">
+          <label style="text-align: center;" for="email"><i class="fa fa-envelope"></i> &nbsp;&nbsp;Email</label>
+          <input style="width: 500px;" placeholder="Enter Here" type="text" name="email" id="email"
+            data-type="expression" data-message="Not a valid email address" required>
+        </div>
+        <div class="center">
+          <label style="text-align: center;" for="city"><i class="fa fa-institution"></i>&nbsp;&nbsp;&nbsp; City</label>
+          <input style="width: 500px;" placeholder="Enter Here" type="text" name="city" id="city" data-type="string"
+            data-message="This field cannot be empty" required>
+        </div>
+        <div class="center">
+          <label style="text-align: center;" for="address"><i class="fa fa-address-card-o"></i>&nbsp;&nbsp;&nbsp;
+            Address</label>
+          <input style="width: 500px;" placeholder="Enter Here" type="text" name="address" id="address"
+            data-type="string" data-message="This field cannot be empty" required>
+        </div>
+        <div class="center">
+          <label style="text-align: center;" for="zip"><i class="fa fa-thumb-tack"
+              aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;ZIP Code</label>
+          <input style="width: 500px;" placeholder="Enter Here" type="text" name="zip" id="zip" data-type="string"
+            data-message="This field cannot be empty" required>
+        </div>
+        <div class="center">
+          <label style="text-align: center;" for="country"><i class="fa fa-globe"
+              aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Country</label>
+          <input style="width: 500px;" placeholder="Enter Here" type="text" name="country" id="country"
+            data-type="string" data-message="This field cannot be empty" required>
+        </div>
+
+      </fieldset><br>
+
+      <p class="ccc"><input type="submit" id="submit-order" value="Submit" class="button" /></p>
+
+    </div>
+  </form>
+</div>

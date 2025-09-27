@@ -1,0 +1,112 @@
+
+ form {
+  padding: 20px !important;
+  margin: 0;
+}
+button, input {
+  line-height: normal;
+  font-size: 100%;
+  vertical-align: baseline;
+  
+}
+.ccc{
+text-align: center;
+}
+.button{
+background-image: linear-gradient(to top left,#163bcf,#798cdb)!important;
+color: #fff!important;
+  display: inline-block;
+  font-family: inherit;
+  font-weight: 700;
+  border: 0;
+  border-radius: 8px!important;
+  white-space: nowrap;
+  padding: 1rem 1.5rem;
+  line-height: 1.4;
+  text-align: center;
+  transition: .07s;
+  position: relative;
+  text-decoration: none!important;
+    cursor: pointer;
+}
+
+
+
+* {
+box-sizing: border-box;
+} 
+.open-button {
+background-color: #555;
+color: white;
+padding: 16px 20px;
+border: none;
+cursor: pointer;
+opacity: 0.8;
+position: fixed;
+bottom: 23px;
+right: 28px;
+width: 280px;
+}
+.easy{
+      font-size: 1.125rem!important;
+      text-shadow: 7px 8px 7px black;
+font-weight: 800;
+padding-top: 20px;
+
+}
+.center {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+}
+.header{
+width: 100%;
+}
+.extra_text{
+color: #fff;
+text-align: center;
+}
+
+.btn_dark:hover{
+background-color: #fff;
+color: #f4511e;
+}
+.container {
+background-image: linear-gradient(to top left,#d19aae,#576dc2)!important;
+box-shadow:1px 1px .5px rgb(20, 65, 110);
+border: 2px solid black;
+  border-radius: 5px;
+  padding: 100px;
+  justify-content: center;
+}
+label {
+  margin-bottom: 10px;
+  display: block;
+}input[type=text], input[type=password] {
+ width: 100%;
+ padding: 15px;
+ margin: 5px 0 22px 0;
+ display: inline-block;
+ border: none;
+ border-bottom: 2px solid black ;
+ background-color: transparent;
+
+}
+::placeholder{
+ color: lavender;
+
+}
+.center{
+ font-size: 22px;
+}
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+ background-color: none;
+ outline: none;
+}
+
+#site{
+ align-items: center;
+
+}
